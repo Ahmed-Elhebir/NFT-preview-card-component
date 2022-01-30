@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](NFT-preview-card-component/screenshot.jpg)
+![screenshot](https://github.com/Ahmed-Elhebir/NFT-preview-card-component/blob/main/screenshot.jpg?raw=true/screenshot.jpg)
 
 ### Links
 
