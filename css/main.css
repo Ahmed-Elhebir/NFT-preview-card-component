@@ -1,0 +1,187 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+.main-container {
+    background-color: hsl(216, 50%, 16%);
+    width: 370px;
+    border-radius: 30px;
+    padding-top: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+    .main-container {
+        width: 300px;
+    }
+}
+.main-container .hover-img {
+    position: absolute;
+    left: 7%;
+    width: 320px;
+    height: 321px;
+    opacity: 0%;
+}
+.main-container .hover-img:hover {
+    opacity: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .main-container .hover-img {
+    left: 8%;
+    width: 250px;
+    height: 250px;
+    }
+}
+.main-container .hover-img img {
+    position: absolute;
+    left: 43%;
+    top: 42%;
+}
+.main-container .main-img {
+    width: 320px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    .main-container .main-img{
+        width: 250px;
+    }
+}
+.main-container .main-text {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    .main-container .main-text{
+        width: 250px;
+    }
+}
+.main-container .main-text h2 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: fit-content;
+}
+.main-container .main-text h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+@media (max-width: 768px) {
+    .main-container .main-text h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+.main-container .main-text p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+@media (max-width: 768px) {
+    .main-container .main-text p{
+        font-size: 15px;
+        line-height: 1.8;
+        margin-bottom: 4px;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 250px;
+    }
+}
+.container .price {
+    display: flex;
+    align-items: center;
+}
+.container .price img {
+    margin-right: 8px;
+}
+.container .price p {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+@media (max-width: 768px) {
+    .container .price p{
+        font-size: 14px;
+    }
+}
+.container .time {
+    display: flex;
+    align-items: center;
+}
+.container .time p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    margin-left: 8px;
+}
+@media (max-width: 768px) {
+    .container .time p {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+}
+.creation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    font-weight: 300;
+}
+.creation::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    top: 0;
+}
+@media (max-width: 768px) {
+    .creation {
+        width: 250px;
+        padding-bottom: 20px;
+    }
+}
+.creation img {
+    width: 35px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+@media (max-width: 768px) {
+    .creation img {
+        width: 30px;
+    }
+}
+.creation p {
+    color: hsl(215, 51%, 70%);
+}
+.creation span {
+    color: hsl(0, 0%, 100%);
+}
+.creation span:hover {
+    color: hsl(178, 100%, 50%);
+}
+@media (max-width: 768px) {
+    .creation p,
+    .creation span {
+        font-size: 14px;
+    }
+}
