@@ -15,6 +15,8 @@ body {
 @media (max-width: 768px) {
     .main-container {
         width: 300px;
+        left: 48%;
+        top: 48%;
     }
 }
 .main-container .hover-img {
@@ -63,17 +65,18 @@ body {
         width: 250px;
     }
 }
-.main-container .main-text h2 {
+.main-container .main-text h1 {
     color: hsl(0, 0%, 100%);
     margin-top: 30px;
     margin-bottom: 25px;
     width: fit-content;
+    font-size: 23px
 }
-.main-container .main-text h2:hover {
+.main-container .main-text h1:hover {
     color: hsl(178, 100%, 50%);
 }
 @media (max-width: 768px) {
-    .main-container .main-text h2{
+    .main-container .main-text h1{
         font-size: 20px;
         margin-bottom: 15px;
     }
@@ -107,12 +110,10 @@ body {
     display: flex;
     align-items: center;
 }
-.container .price img {
-    margin-right: 8px;
-}
 .container .price p {
-    font-weight: 600;
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-left: 8px;
 }
 @media (max-width: 768px) {
     .container .price p{
